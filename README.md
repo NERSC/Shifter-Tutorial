@@ -19,9 +19,9 @@ SC 16
   - [Running an image interactively](03-hands-on.md#running-an-image-interactively)
   - [Submitting a Shifter batch job](03-hands-on.md#submitting-a-shifter-batch-job)
   - [Running a parallel Python MPI job](03-hands-on.md#running-a-parallel-python-mpi-job)
-- 11:15: Uses Cases in the Real World and Best Practices
-  - Reproducibility
-  - LHC, Astronomy
+- 11:15: [Uses Cases in the Real World and Best Practices](04-use-cases.md)
+  - [Reproducibility](04-use-cases.md#reproducibility)
+  - [LHC, Astronomy](04-use-cases.md#lhc,-astronomy)
 - 11:30: Final Hands-on
   - Controlling layers and making builds faster
   - What goes in the image and what should stay out
