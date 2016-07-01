@@ -5,7 +5,7 @@ SC 16
 ## Agenda
 
 - 8:30: Welcome and Intro to Docker
-- 9:00: First hands-on
+- 9:00: [First hands-on](01-hands-on.md#Pulling and running an existing image)
   - Pulling and running an existing image
   - Making changes and committing them
   - Creating and building a Dockerfile
