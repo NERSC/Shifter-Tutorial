@@ -5,11 +5,11 @@ SC 16
 ## Agenda
 
 - 8:30: Welcome and Intro to Docker
-- 9:00: [First hands-on](01-hands-on.md#Pulling and running an existing image)
-  - Pulling and running an existing image
-  - Making changes and committing them
-  - Creating and building a Dockerfile
-  - Pushing a Dockerfile to dockerhub
+- 9:00: [First hands-on](01-hands-on.md)
+  - [Pulling and running an existing image](01-hands-on.md#pulling-and-running-an-existing-image)
+  - [Making changes and committing them](01-hands-on.md#making-changes-and-committing-them)
+  - [Creating and building a Dockerfile](01-hands-on.md#creating-and-building-a-dockerfile)
+  - [Pushing a Dockerfile to dockerhub](01-hands-on.md#pushing-a-dockerfile-to-dockerhub)
 - 9:30: Break (check time on this)
   - Distribute NERSC logins
 - 10:00: Intro to Shifter and how it is different
