@@ -21,8 +21,8 @@ SC 16
   - [Running a parallel Python MPI job](03-hands-on.md#running-a-parallel-python-mpi-job)
 - 11:15: [Uses Cases in the Real World and Best Practices](04-use-cases.md)
   - [Reproducibility](04-use-cases.md#reproducibility)
-  - [LHC, Astronomy](04-use-cases.md#lhc,-astronomy)
-- 11:30: Final Hands-on
-  - Controlling layers and making builds faster
-  - What goes in the image and what should stay out
-  - Bring us your problem
+  - [LHC, Astronomy](04-use-cases.md#lhc-astronomy)
+- 11:30: [Final Hands-on](05-hands-on)
+  - [Controlling layers and making builds faster](05-hands-on#controlling-layers-and-making-builds-faster)
+  - [What goes in the image and what should stay out](05-hands-on#what-goes-in-the-image-and-what-should-stay-out)
+  - [Bring us your problem](05-hands-on#bring-us-your-problem)
