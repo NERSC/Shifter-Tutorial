@@ -6,14 +6,16 @@ Use ssh to connect to Cori.  The username and password will be on the training a
 
 ```bash
 ssh <account>@cori.nersc.gov
-module load shifter```
+module load shifter
+```
 
 ## Pulling an image
 
 Pull and image using shifterimg.  You will need to preface the image with "docker" to indicate this is a docker pull operation.
 
 ```bash
-shifterimg pull docker:ubuntu:14.04```
+shifterimg pull docker:ubuntu:14.04
+```
 
 ## Running an image interactively
 
@@ -21,13 +23,15 @@ Use salloc and shifter to test the image.
 
 ```bash
 salloc -N 1
-shifter bash```
+shifter bash
+```
 
 You should be able to browse inside the image and confirm that it matches what you pushed to dockerhub earlier.
 
 ```bash
 ls -l /app
-lsb_release -a```
+lsb_release -a
+```
 
 Once you are done exploring, exit out.
 ```bash
