@@ -2,6 +2,14 @@
 
 SC 16
 
+## Prerequisites
+
+This is hands-on tutorial.  Participants should bring a laptop and pre-install software in advance to make
+the best use of time during the tutorial.  Participants should [install Docker](https://docs.docker.com/) locally on their laptop.  Alternatively, participants can have remote access to a system that has docker installed and allows them to run docker commands.  In addition,
+users should install an ssh client for their operating system so they can access the HPC resources we will
+use for the Shifter portion of the tutorials.  We will attempt to have some alternative options for users
+who have issues installing Docker.
+
 ## Agenda
 
 - 8:30: [Welcome and Intro to Docker](00-docker.md)
@@ -11,7 +19,7 @@ SC 16
   - [Creating and building a Dockerfile](01-hands-on.md#creating-and-building-a-dockerfile)
   - [Pushing a Dockerfile to dockerhub](01-hands-on.md#pushing-a-dockerfile-to-dockerhub)
 - 9:30: Break (check time on this)
-  - Distribute NERSC logins
+  - Distribute NERSC logins - Please obtain a NERSC login from tutorial staff
 - 10:00: [Intro to Shifter and how it is different](02-shifter.md)
 - 10:30: [Second hands-on - Shifter](03-hands-on.md)
   - [Logging in to NERSC](03-hands-on.md#logging-in-to-nersc)
