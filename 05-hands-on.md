@@ -23,7 +23,8 @@ RUN wget http://hostname.com/mycode.tgz && \
  cd mycode && make && make install && \
  rm -rf mycode.tgz mycode
  ```
- This image size will be much smaller since the cleanup happens inside the layer construction.  Also, notice the use of "&&" between commands.  This is good practice so that failures are detected and will stop the build.  Using a semi-colon like was done above means that the make could fail but the build would continue on.
+
+This image size will be much smaller since the cleanup happens inside the layer construction.  Also, notice the use of "&&" between commands.  This is good practice so that failures are detected and will stop the build.  Using a semi-colon like was done above means that the make could fail but the build would continue on.
 
 ## What goes in the image and what should stay out
 
