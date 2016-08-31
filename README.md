@@ -1,6 +1,8 @@
-# Docker tutorial
+# Container Computing for HPC and Scientific Workflows - SC16 Tutorial
 
-SC 16
+Container computing is revolutionizing the way applications are developed and delivered.  It offers opportunities that never existed before for significantly improving efficiency of scientific workflows and easily moving these workflows from the laptop to the supercomputer.  Tools like Docker and Shifter enable a new paradigm for scientific and technical computing.  However, to fully unlock its potential, users and administrators need to understand how to utilize these new approaches.  This tutorial will introduce attendees to the basics of creating container images, explain best practices, and cover more advanced topics such as creating images to be run on HPC platforms using Shifter.  The tutorial will also explain how research scientists can utilize container-based computing to accelerate their research and how these tools can boost the impact of their research by enabling better reproducibility and sharing of their scientific process without compromising security.  
+
+The content for the handouts and slides will be posted and updated at [https://github.com/luizirber/2016-11-14-sc16](https://github.com/luizirber/2016-11-14-sc16).
 
 ## Prerequisites
 
