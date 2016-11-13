@@ -1,20 +1,18 @@
-# MPI Dockerfile
-FROM ubuntu:14.04
-RUN apt-get update && \
-    apt-get install -y autoconf automake gcc g++ make gfortran
+# This example makes use of an Ubuntu-based NERSC base image 
+# that already has MPI built and installed.
+#
+# This means the you just need to add your app code in and compile it.
+#
+# To build this example do:
+# docker build -t <dockerhubid>/hellompi:latest .
+#
+# And to test:
+# docker run -it --rm <dockerhubid>/hellompi:latest /app/hello
 
-ADD http://www.mpich.org/static/downloads/3.2/mpich-3.2.tar.gz /usr/local/src/
+FROM nersc/ubuntu-mpi:14.04
 
-RUN cd /usr/local/src/ && \
-    tar xf mpich-3.2.tar.gz && \
-    cd mpich-3.2 && \
-    ./configure && \
-    make && make install && \
-    cd /usr/local/src && \
-    rm -rf mpich-3.2
+ADD helloworld.c /app/
 
-ADD helloworld.c /
+RUN cd /app && mpicc helloworld.c -o /app/hello
 
-RUN mkdir /app && mpicc helloworld.c -o /app/hello
-
-ENV PATH=/usr/bin:/bin:/app
+ENV PATH=/usr/bin:/bin:/app:/usr/local/bin

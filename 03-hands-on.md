@@ -96,36 +96,27 @@ Next create, a Dockerfile that install MPICH and the application.
 
 ```bash
 # MPI Dockerfile
-FROM ubuntu:14.04
-RUN apt-get update && \
-    apt-get install -y autoconf automake gcc g++ make gfortran
-ADD http://www.mpich.org/static/downloads/3.2/mpich-3.2.tar.gz /usr/local/src/
-RUN cd /usr/local/src/ && \
-    tar xf mpich-3.2.tar.gz && \
-    cd mpich-3.2 && \
-    ./configure && \
-    make && make install && \
-    cd /usr/local/src && \
-    rm -rf mpich-3.2
+FROM nersc/ubuntu-mpi:14.04
 
-ADD helloworld.c /
-RUN mkdir /app && mpicc helloworld.c -o /app/hello
+ADD helloworld.c /app/
 
-ENV PATH=/usr/bin:/bin:/app
+RUN cd /app && mpicc helloworld.c -o /app/hello
+
+ENV PATH=/usr/bin:/bin:/app:/usr/local/bin
 ```
 
 Build and push the image.
 ```bash
-docker build -t <mydockerid>/hello:latest .
-docker push <mydockerid>/hello:latest
+docker build -t <mydockerid>/hellompi:latest .
+docker push <mydockerid>/hellompi:latest
 ```
 
 Next, return to your Cori login, pull your image down and run it.
 
 ```bash
-shifterimg pull <mydockerid>/hello:latest
+shifterimg pull <mydockerid>/hellompi:latest
 #Wait for it to complete
-salloc -N 2 -C haswell --reservation=sc16 --image <mydockerid>/hello:latest
+salloc -N 2 -C haswell --reservation=sc16 --image <mydockerid>/hellompi:latest
 # Wait for prepare_compilation_report
 # Cori has 32 physical cores per node with 2 hyper-threads per core.  
 # So you can run up to 64 tasks per node.
