@@ -11,7 +11,7 @@ This is hands-on tutorial.  Participants should bring a laptop and pre-install s
 For more detailed instructions, see [Setup](setup.md).
 
 ## Communication
-We'll have several helpers for individual questions during the hands-on part of this tutorial. Since there are so many people attending, we've also set up a [Telegram group chat room](https://telegram.me/sc16_containers) where you can post questions and solutions to issues you encounter. 
+We'll have several helpers for individual questions during the hands-on part of this tutorial. Since there are so many people attending, we've also set up a [Telegram group chat room](https://telegram.me/sc16_containers) where you can post questions and solutions to issues you encounter. To use this you will need to have Telegram installed already. Clicking on the the Telegram chat link above will guide you through installation.
 
 ## Agenda
 
