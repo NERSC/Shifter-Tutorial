@@ -11,7 +11,7 @@ This is hands-on tutorial.  Participants should bring a laptop and pre-install s
 For more detailed instructions, see [Setup](setup.md).
 
 ## Communication
-We'll have several helpers for individual questions during the hands on part of this tutorial. Since there are so many people attending, we've also set up a [Telegram group chat room](https://telegram.me/sc16_containers) where you can post questions and solutions to issues you encounter. 
+We'll have several helpers for individual questions during the hands-on part of this tutorial. Since there are so many people attending, we've also set up a [Telegram group chat room](https://telegram.me/sc16_containers) where you can post questions and solutions to issues you encounter. 
 
 ## Agenda
 
@@ -34,6 +34,6 @@ We'll have several helpers for individual questions during the hands on part of 
     - [Reproducibility](04-use-cases.md#reproducibility)
     - [Science Use Cases](04-use-cases.md#lhc-astronomy)
 - 11:30: [Final Hands-on](05-hands-on.md)
-    - [Controlling layers and making builds faster](05-hands-on.d#controlling-layers-and-making-builds-faster)
+    - [Controlling layers and making builds faster](05-hands-on.md#controlling-layers-and-making-builds-faster)
     - [What goes in the image and what should stay out](05-hands-on.md#what-goes-in-the-image-and-what-should-stay-out)
     - [Bring us your problem](05-hands-on.md#bring-us-your-problem)
