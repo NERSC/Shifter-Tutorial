@@ -10,6 +10,9 @@ This is hands-on tutorial.  Participants should bring a laptop and pre-install s
 
 For more detailed instructions, see [Setup](setup.md).
 
+## Communication
+We'll have several helpers for individual questions during the hands on part of this tutorial. Since there are so many people attending, we've also set up a [Telegram group chat room](https://telegram.me/sc16_containers) where you can post questions and solutions to issues you encounter. 
+
 ## Agenda
 
 - 8:30: [Welcome and Intro to Docker](00-intro.md)
