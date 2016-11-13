@@ -5,4 +5,4 @@ include insites on how Docker can be used to assist with reproducibility.
 
 ## Containers and Reproducibility
 ## Science Use Cases
-[Slides](../SC_use_slides.pdf)
+[Slides](SC_use_slides.pdf)
