@@ -5,13 +5,15 @@
 Pull a public image such as ubuntu or centos using the docker pull command.  If a tag is not specified, docker will default to "latest".
 
 ```bash
-docker pull ubuntu
+$ docker pull ubuntu:14.04
 ```
 
 Now run the image using the docker run command.  Use the "-it" option to get an interactive terminal during the run.
 
 ```bash
-docker run -it ubuntu
+$ docker run -it ubuntu:14.04
+$ whoami
+$ lsb-release -a
 ```
 
 ## Making changes and committing them
@@ -19,13 +21,13 @@ docker run -it ubuntu
 Using standard linux commands, modify the image.  
 
 ```bash
-docker run -it ubuntu
-echo root@949eb1a6a099:/# (echo '#!/bin/bash'|echo "echo 'Hello World'") > /bin/hello
-chmod 755 /bin/hello
+$ docker run -it ubuntu:14.04
+root@949eb1a6a099:/# (echo '#!/bin/bash'|echo "echo 'Hello World'") > /bin/hello
+$ chmod 755 /bin/hello
 # Test it
-hello
+$ hello
 # Exit
-exit
+$ exit
 ```
 
 Now find the container and commit the changes to a new image called hello.
@@ -48,24 +50,24 @@ While manually modifying and commiting changes is one way to build images, using
 
 A Dockerfile has many options.  We will focus on a few basic ones (FROM, MAINTAINER, ADD, and RUN)
 
-Create a simple shell script called script in your local directory using your favoriate editor.
+Create a simple shell script called script in your local directory using your favorite editor.
 
 ```
 #!/bin/bash
-echo "Hello World"
+echo "Luiz says Hello World!"
 ```
 
-Noe create a Dockerfile called Dockerfile in the same directory with contents similar to this.  Use your own name and e-mail for the maintainer.  Feel free to change the FROM line if there is a different base OS you prefer (e.g. centos or fedora).
+Now create a file called Dockerfile in the same directory with contents similar to this.  Use your own name and e-mail for the maintainer.
 
 ```
-FROM ubuntu
+FROM ubuntu:14.04
 MAINTAINER Joe Smith <joe@user.com>
 
 ADD . /src
 RUN cp /src/script /bin/hello && chmod 755 /bin/hello
 ```
 
-Now build the image using the docker build command.  Be sure to use the -t option to tag it.  Tell the Dockerfile to build using the current directory by specifying '.'.  Alternatively you could place the Dockerfile and script in an alternate location and specify that directory in the docker build command.
+Now build the image using the docker build command.  Be sure to use the `-t` option to tag it.  Tell the Dockerfile to build using the current directory by specifying `.`.  Alternatively you could place the Dockerfile and script in an alternate location and specify that directory in the docker build command.
 
 ```bash
 docker build -t hello:1.0 .

@@ -26,6 +26,14 @@ For older versions of Windows or macOS you can use the Docker Toolbox:
 https://docs.docker.com/engine/installation/windows/#/docker-for-windows.
 It uses VirtualBox instead of the native virtualization technologies.
 
+### Check if everything is working
+
+Run the following commands:
+
+```bash
+$ docker pull ubuntu:14.04
+```
+
 ## Docker hub account
 
 Register for an account at https://hub.docker.com/
