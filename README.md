@@ -23,7 +23,7 @@ We'll have several helpers for individual questions during the hands-on part of 
     - [Pushing a Dockerfile to dockerhub](01-hands-on.md#pushing-a-dockerfile-to-dockerhub)
 - 9:30: [Intro to Shifter and how it is different](02-shifter.md)
 - 10:00: Break
-    - Distribute NERSC logins. **Please obtain a NERSC login from tutorial staff**
+    - Distribute NERSC logins. **Please obtain a NERSC login from tutorial staff during the break**
 - 10:30: [Second hands-on - Shifter](03-hands-on.md)
     - [Logging in to NERSC](03-hands-on.md#logging-in-to-nersc)
     - [Pulling an image](03-hands-on.md#pulling-an-image)
