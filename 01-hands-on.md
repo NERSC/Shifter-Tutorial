@@ -13,7 +13,7 @@ Now run the image using the docker run command.  Use the "-it" option to get an 
 ```bash
 $ docker run -it ubuntu:14.04
 $ whoami
-$ lsb-release -a
+$ lsb_release -a
 ```
 
 ## Making changes and committing them
