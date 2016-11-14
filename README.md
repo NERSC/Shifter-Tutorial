@@ -13,6 +13,9 @@ For more detailed instructions, see [Setup](setup.md).
 ## Communication
 We'll have several helpers for individual questions during the hands-on part of this tutorial. Since there are so many people attending, we've also set up a [Telegram group chat room](https://telegram.me/sc16_containers) where you can post questions and solutions to issues you encounter. To use this you will need to have Telegram installed already. Clicking on the the Telegram chat link above will guide you through installation.
 
+##Feedback
+We'd appreciate you taking a few minutes to fill out [a very short survey](https://www.surveymonkey.com/r/C3NWBKD) about this tutorial at the end of the session. Also feel free to contact Shane, Luiz, or Lisa if you have any questions about Shifter in the future.
+
 ## Agenda
 
 - 8:30: [Welcome and Intro to Docker](00-intro.md)
