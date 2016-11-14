@@ -8,6 +8,6 @@ Go to [Setup](setup.md) and start downloading Docker for your platform.
 
 [Google slides](https://docs.google.com/presentation/d/1gTI9LiZmj05v4mW3m-AmdFYkxwrCogM4ziMua8pLJEM)
 
-[Archived copy](intro.pdf)
+[Archived copy](presentations/intro.pdf)
 
 
