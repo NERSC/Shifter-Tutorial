@@ -90,3 +90,7 @@ docker push patsmith/hello:1.0
 ```
 
 The first push make take some time depending on your network connection and the size of the image.
+
+## Docker architecture overview
+
+![Docker architecture](https://docs.docker.com/engine/article-img/architecture.svg)
