@@ -32,6 +32,7 @@ Run the following commands:
 
 ```bash
 $ docker pull ubuntu:14.04
+$ docker pull nersc/ubuntu-mpi:14.04
 ```
 
 ## Docker hub account
