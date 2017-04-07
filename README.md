@@ -22,8 +22,8 @@ We'd appreciate you taking a few minutes to fill out [a very short survey](https
 ## Agenda
 
 - 8:30: [Welcome and Intro to Containers](00-intro.md)
-    - [Intro to Docker]
-    - [Intro to Shifter and how it is different]
+    - Intro to Docker
+    - Intro to Shifter and how it is different
 - 9:00: [First hands-on](01-hands-on.md)
     - [Pulling and running an existing image](01-hands-on.md#pulling-and-running-an-existing-image)
     - [Making changes and committing them](01-hands-on.md#making-changes-and-committing-them)
@@ -31,10 +31,10 @@ We'd appreciate you taking a few minutes to fill out [a very short survey](https
     - [Pushing a Dockerfile to dockerhub](01-hands-on.md#pushing-a-dockerfile-to-dockerhub)
 - 9:30: Break
     - Distribute NERSC logins. **Please obtain a NERSC login from tutorial staff during the break**
-- 10:00: [Installing Shifter]
-    - [Guided Tour of Shifter Installation on Cray XC40] 
-    - [Shifter Gateway Tour]
-    - [How to roll your own installation for SL5 and SL6]
+- 10:00: Installing Shifter
+    - Guided Tour of Shifter Installation on Cray XC40 
+    - Shifter Gateway Tour
+    - How to roll your own installation for SL5 and SL6
 - 11:00: [Second hands-on - Shifter](03-hands-on.md)
     - [Logging in to NERSC](03-hands-on.md#logging-in-to-nersc)
     - [Pulling an image](03-hands-on.md#pulling-an-image)
