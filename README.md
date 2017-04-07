@@ -29,9 +29,13 @@ We'd appreciate you taking a few minutes to fill out [a very short survey](https
     - [Making changes and committing them](01-hands-on.md#making-changes-and-committing-them)
     - [Creating and building a Dockerfile](01-hands-on.md#creating-and-building-a-dockerfile)
     - [Pushing a Dockerfile to dockerhub](01-hands-on.md#pushing-a-dockerfile-to-dockerhub)
-- 9:30: Break
+- 9:30: Installing Shifter
+    - Guided Tour of Shifter Installation on Cray XC40 
+    - Shifter Gateway Tour
+    - How to roll your own installation for SL5 and SL6
+- 10:00: Break
     - Distribute NERSC logins. **Please obtain a NERSC login from tutorial staff during the break**
-- 10:00: Installing Shifter
+- 10:30: Installing Shifter Con't
     - Guided Tour of Shifter Installation on Cray XC40 
     - Shifter Gateway Tour
     - How to roll your own installation for SL5 and SL6
@@ -46,3 +50,4 @@ We'd appreciate you taking a few minutes to fill out [a very short survey](https
     - [Controlling layers and making builds faster](05-hands-on.md#controlling-layers-and-making-builds-faster)
     - [What goes in the image and what should stay out](05-hands-on.md#what-goes-in-the-image-and-what-should-stay-out)
     - [Bring us your problem](05-hands-on.md#bring-us-your-problem)
+- 12:00: Fin
