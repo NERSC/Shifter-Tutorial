@@ -6,7 +6,7 @@ The content for the handouts and slides will be posted and updated at [https://g
 
 ## Prerequisites
 
-This is hands-on tutorial. Participants should bring a laptop and pre-install software in advance to make the best use of time during the tutorial. Participants should [install Docker](https://docs.docker.com/) locally on their laptop.  Alternatively, participants can have remote access to a system that has docker installed and allows them to run docker commands.  Users can also create a dockerhub account in advance at [https://hub.docker.com/](https://hub.docker.com/).  This account will be needed to create images on dockerhub.  In addition, users should install an ssh client for their operating system so they can access the HPC resources we will use for the Shifter portion of the tutorials.  We will attempt to have some alternative options for users who have issues installing Docker.
+This is hands-on tutorial. Participants should bring a laptop and pre-install software in advance to make the best use of time during the tutorial. Participants should [install Docker](https://docs.docker.com/) locally on their laptop.  Alternatively, participants can have remote access to a system that has docker installed and allows them to run docker commands.  Users can also create a dockerhub account in advance at [https://hub.docker.com/](https://hub.docker.com/).  This account will be needed to create images on dockerhub.  In addition, users should install an ssh client for their operating system so they can access the HPC resources we will use for the Shifter portion of the tutorials.
 
 For more detailed instructions, see [Setup](setup.md).
 
