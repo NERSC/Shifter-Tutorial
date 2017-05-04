@@ -35,7 +35,7 @@ We'd appreciate you taking a few minutes to fill out [a very short survey](https
     - Distribute NERSC logins. **Please obtain a NERSC login from tutorial staff during the break**
 - 10:30: Installing Shifter Con't
     - Shifter Gateway Tour
-    - How to roll your own installation for SL5 and SL6
+    - How to roll your own installation for CLE5 and CLE6
 - 11:00: [Second hands-on - Shifter](03-hands-on.md)
     - [Logging in to NERSC](03-hands-on.md#logging-in-to-nersc)
     - [Pulling an image](03-hands-on.md#pulling-an-image)
