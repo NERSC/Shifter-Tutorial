@@ -23,12 +23,12 @@ We'd appreciate you taking a few minutes to fill out [a very short survey](https
 
 - 8:30: [Welcome and Intro to Containers](00-intro.md)
     - Intro to Docker
-    - Intro to Shifter and how it is different
-- 9:00: [First hands-on](01-hands-on.md)
-    - [Pulling and running an existing image](01-hands-on.md#pulling-and-running-an-existing-image)
-    - [Making changes and committing them](01-hands-on.md#making-changes-and-committing-them)
-    - [Creating and building a Dockerfile](01-hands-on.md#creating-and-building-a-dockerfile)
-    - [Pushing a Dockerfile to dockerhub](01-hands-on.md#pushing-a-dockerfile-to-dockerhub)
+    - [First hands-on](01-hands-on.md)
+      - [Pulling and running an existing image](01-hands-on.md#pulling-and-running-an-existing-image)
+      - [Making changes and committing them](01-hands-on.md#making-changes-and-committing-them)
+      - [Creating and building a Dockerfile](01-hands-on.md#creating-and-building-a-dockerfile)
+      - [Pushing a Dockerfile to dockerhub](01-hands-on.md#pushing-a-dockerfile-to-dockerhub)
+    - [Intro to Shifter and how it is different](02-shifter.md)
 - 9:30: Installing Shifter
     - Guided Tour of Shifter Installation on Cray XC40 
 - 10:00: Break
