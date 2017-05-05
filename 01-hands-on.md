@@ -54,17 +54,17 @@ Create a simple shell script called script in your local directory using your fa
 
 ```
 #!/bin/bash
-echo "Luiz says Hello World!"
+echo "Lisa says Hello World!"
 ```
 
 Now create a file called Dockerfile in the same directory with contents similar to this.  Use your own name and e-mail for the maintainer.
 
 ```
 FROM ubuntu:14.04
-MAINTAINER Joe Smith <joe@user.com>
+MAINTAINER Lisa Gerhardt <lgerhardt@lbl.gov>
 
-ADD . /src
-RUN cp /src/script /bin/hello && chmod 755 /bin/hello
+ADD ./src/script /bin/script
+RUN mv /bin/script /bin/hello && chmod a+rx /bin/hello
 ```
 
 Now build the image using the docker build command.  Be sure to use the `-t` option to tag it.  Tell the Dockerfile to build using the current directory by specifying `.`.  Alternatively you could place the Dockerfile and script in an alternate location and specify that directory in the docker build command.
@@ -77,7 +77,7 @@ Try running the image.
 
 ```bash
 docker run -it hello:1.0
-/bin/hello
+hello
 ```
 
 ## Pushing a Dockerfile to dockerhub
@@ -85,8 +85,8 @@ docker run -it hello:1.0
 Docker provides a public hub that can be use to store and share images.  Before pushing an image, you will need to create an account at Dockerhub.  Go to [https://hub.docker.com/](https://hub.docker.com/) to create the account.  Once the account is created, push your test image using the docker push command.  In this example, we will assume the username is patsmith.
 
 ```bash
-docker tag hello:1.0 patsmith/hello:1.0
-docker push patsmith/hello:1.0
+docker tag hello:1.0 lgerhardt/hello:1.0
+docker push lgerhardt/hello:1.0
 ```
 
 The first push make take some time depending on your network connection and the size of the image.
