@@ -6,7 +6,7 @@ Go to [Setup](setup.md) and start downloading Docker for your platform.
 
 ## Presentation
 
-[Google slides](https://docs.google.com/presentation/d/1gTI9LiZmj05v4mW3m-AmdFYkxwrCogM4ziMua8pLJEM)
+[Google slides](https://drive.google.com/file/d/0B-dUS1XSb6eaQ3JxOTNobkMwQWM/view?usp=sharing)
 
 [Archived copy](presentations/intro.pdf)
 
