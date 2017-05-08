@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -N 1 -C haswell
+#SBATCH -N 1 -C haswell -p regular
 #SBATCH --reservation=CUG1C
 #SBATCH --image docker:ubuntu
 
