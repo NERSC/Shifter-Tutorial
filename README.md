@@ -30,12 +30,12 @@ We'd appreciate you taking a few minutes to fill out [a very short survey](https
       - [Pushing a Dockerfile to dockerhub](01-hands-on.md#pushing-a-dockerfile-to-dockerhub)
     - [Intro to Shifter and how it is different](02-shifter.md)
 - 9:30: Installing Shifter
-    - Guided Tour of Shifter Installation on Cray XC40 
+    - Guided Tour of Shifter Installation
+    - How to roll your own installation for CLE5 and CLE6
 - 10:00: Break
     - Distribute NERSC logins. **Please obtain a NERSC login from tutorial staff during the break**
 - 10:30: Installing Shifter Con't
     - Shifter Gateway Tour
-    - How to roll your own installation for CLE5 and CLE6
 - 11:00: [Second hands-on - Shifter](03-hands-on.md)
     - [Logging in to NERSC](03-hands-on.md#logging-in-to-nersc)
     - [Pulling an image](03-hands-on.md#pulling-an-image)
