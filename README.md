@@ -17,7 +17,7 @@ Please raise your hand if you need assistance. <!--- We've also set up a [Telegr
 Shifter is available using a modified BSD license. The Shifter code stack is available in the [NERSC github repository](https://github.com/NERSC/shifter). 
 
 ## Feedback
-We'd appreciate you taking a few minutes to fill out [a very short survey](https://www.surveymonkey.com/r/C3NWBKD) about this tutorial at the end of the session. Also feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/shifter-hpc) or contact Shane, Doug, or Lisa if you have any questions about Shifter in the future.
+<!--We'd appreciate you taking a few minutes to fill out [a very short survey](https://www.surveymonkey.com/r/C3NWBKD) about this tutorial at the end of the session. --> Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/shifter-hpc) or contact Shane, Doug, or Lisa if you have any questions about Shifter in the future.
 
 ## Agenda
 
