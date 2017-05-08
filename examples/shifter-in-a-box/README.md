@@ -25,6 +25,6 @@ To run a shifter container, you need to become the testuser (auser).
 # Docker4Mac Users
 
 If you are using Docker4Mac then you will need to install the squashfs module.  There
-is a spearate Docker image for this.
+is a separate Docker image for this.
 
     docker run -it --rm --privileged scanon/squashfs

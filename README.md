@@ -17,7 +17,8 @@ Please raise your hand if you need assistance. <!--- We've also set up a [Telegr
 Shifter is available using a modified BSD license. The Shifter code stack is available in the [NERSC github repository](https://github.com/NERSC/shifter). 
 
 ## Feedback
-We'd appreciate you taking a few minutes to fill out [a very short survey](https://www.surveymonkey.com/r/C3NWBKD) about this tutorial at the end of the session. Also feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/shifter-hpc) or contact Shane, Doug, or Lisa if you have any questions about Shifter in the future.
+<!--We'd appreciate you taking a few minutes to fill out [a very short survey](https://www.surveymonkey.com/r/C3NWBKD) about this tutorial at the end of the session. --> 
+Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/shifter-hpc) or contact Shane, Doug, or Lisa if you have any questions about Shifter in the future.
 
 ## Agenda
 
@@ -30,12 +31,12 @@ We'd appreciate you taking a few minutes to fill out [a very short survey](https
       - [Pushing a Dockerfile to dockerhub](01-hands-on.md#pushing-a-dockerfile-to-dockerhub)
     - [Intro to Shifter and how it is different](02-shifter.md)
 - 9:30: Installing Shifter
-    - Guided Tour of Shifter Installation on Cray XC40 
+    - Guided Tour of Shifter Installation
+    - How to roll your own installation for CLE5 and CLE6
 - 10:00: Break
     - Distribute NERSC logins. **Please obtain a NERSC login from tutorial staff during the break**
 - 10:30: Installing Shifter Con't
     - Shifter Gateway Tour
-    - How to roll your own installation for CLE5 and CLE6
 - 11:00: [Second hands-on - Shifter](03-hands-on.md)
     - [Logging in to NERSC](03-hands-on.md#logging-in-to-nersc)
     - [Pulling an image](03-hands-on.md#pulling-an-image)
