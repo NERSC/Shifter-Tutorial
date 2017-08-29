@@ -1,12 +1,12 @@
-# Container Computing for HPC and Scientific Workflows - CUG17 Tutorial
+# Container Computing for HPC and Scientific Workflows - SC17 Tutorial
 
-Container computing is revolutionizing the way applications are developed and delivered.  It offers opportunities that never existed before for significantly improving efficiency of scientific workflows and easily moving these workflows from the laptop to the supercomputer.  Tools like Docker and Shifter enable a new paradigm for scientific and technical computing.  However, to fully unlock its potential, users and administrators need to understand how to utilize these new approaches.  This tutorial will introduce attendees to the basics of creating container images, explain best practices, and cover more advanced topics such as creating images to be run on HPC platforms using Shifter.  The tutorial will also explain how research scientists can utilize container-based computing to accelerate their research and how these tools can boost the impact of their research by enabling better reproducibility and sharing of their scientific process without compromising security.  
+Container computing is revolutionizing the way applications are developed and delivered. It offers opportunities that never existed before for significantly improving efficiency of scientific workflows and easily moving these workflows from the laptop to the supercomputer. Tools like Docker and Shifter enable a new paradigm for scientific and technical computing. However, to fully unlock its potential, users and administrators need to understand how to utilize these new approaches. This tutorial will introduce attendees to the basics of creating container images, explain best practices, and cover more advanced topics such as creating images to be run on HPC platforms using Shifter. The tutorial will also explain how research scientists can utilize container-based computing to accelerate their research and how these tools can boost the impact of their research by enabling better reproducibility and sharing of their scientific process without compromising security.  
 
-The content for the handouts and slides will be posted and updated at [https://github.com/nersc/Shifter-Tutorial](https://github.com/nersc/Shifter-Tutorial).
+The content for the handouts and slides will be posted and updated at [https://github.com/nersc/Shifter-Tutorial](https://github.com/nersc/Shifter-Tutorial). Previous versions of this tutorial have been stored as git tags.
 
 ## Prerequisites
 
-This is hands-on tutorial. Participants should bring a laptop and pre-install software in advance to make the best use of time during the tutorial. Participants should [install Docker](https://docs.docker.com/) locally on their laptop.  Alternatively, participants can have remote access to a system that has docker installed and allows them to run docker commands.  Users can also create a dockerhub account in advance at [https://hub.docker.com/](https://hub.docker.com/).  This account will be needed to create images on dockerhub.  In addition, users should install an ssh client for their operating system so they can access the HPC resources we will use for the Shifter portion of the tutorials.
+This is hands-on tutorial. Participants should bring a laptop and pre-install Docker in advance to make the best use of time during the tutorial (see the [Setup](setup.md) section for details). Users can also create a dockerhub account in advance at [https://hub.docker.com/](https://hub.docker.com/). This account will be needed to create images on dockerhub. In addition, users should install an ssh client for their operating system so they can access the HPC resources we will use for the Shifter portion of the tutorials.
 
 For more detailed instructions, see [Setup](setup.md).
 
@@ -18,7 +18,7 @@ Shifter is available using a modified BSD license. The Shifter code stack is ava
 
 ## Feedback
 <!--We'd appreciate you taking a few minutes to fill out [a very short survey](https://www.surveymonkey.com/r/C3NWBKD) about this tutorial at the end of the session. --> 
-Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/shifter-hpc) or contact Shane, Doug, or Lisa if you have any questions about Shifter in the future.
+Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/shifter-hpc) or contact Shane or Lisa if you have any questions about Shifter in the future.
 
 ## Agenda
 
