@@ -22,7 +22,7 @@ Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/sh
 
 ## Agenda
 
-- 8:30: [Welcome and Intro to Containers](00-intro.md)
+- 13:30: [Welcome and Intro to Containers](00-intro.md)
     - Intro to Docker
     - [First hands-on](01-hands-on.md)
       - [Pulling and running an existing image](01-hands-on.md#pulling-and-running-an-existing-image)
@@ -30,22 +30,22 @@ Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/sh
       - [Creating and building a Dockerfile](01-hands-on.md#creating-and-building-a-dockerfile)
       - [Pushing a Dockerfile to dockerhub](01-hands-on.md#pushing-a-dockerfile-to-dockerhub)
     - [Intro to Shifter and how it is different](02-shifter.md)
-- 9:30: Installing Shifter
+- 14:30: Installing Shifter
     - Guided Tour of Shifter Installation
     - How to roll your own installation for CLE5 and CLE6
-- 10:00: Break
+- 15:00: Break
     - Distribute NERSC logins. **Please obtain a NERSC login from tutorial staff during the break**
-- 10:30: Installing Shifter Con't
+- 15:30: Installing Shifter Con't
     - Shifter Gateway Tour
-- 11:00: [Second hands-on - Shifter](03-hands-on.md)
+- 16:00: [Second hands-on - Shifter](03-hands-on.md)
     - [Logging in to NERSC](03-hands-on.md#logging-in-to-nersc)
     - [Pulling an image](03-hands-on.md#pulling-an-image)
     - [Running an image interactively](03-hands-on.md#running-an-image-interactively)
     - [Submitting a Shifter batch job](03-hands-on.md#submitting-a-shifter-batch-job)
     - [Running a parallel Python MPI job](03-hands-on.md#running-a-parallel-python-mpi-job)
-- 11:45: [Uses Cases and Optimization](04-use-cases.md)
+- 16:45: [Uses Cases and Optimization](04-use-cases.md)
     - [Science Use Cases](04-use-cases.md#lhc-astronomy)
     - [Controlling layers and making builds faster](05-hands-on.md#controlling-layers-and-making-builds-faster)
     - [What goes in the image and what should stay out](05-hands-on.md#what-goes-in-the-image-and-what-should-stay-out)
     - [Bring us your problem](05-hands-on.md#bring-us-your-problem)
-- 12:00: Fin
+- 17:00: Fin
