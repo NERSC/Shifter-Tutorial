@@ -14,10 +14,10 @@ For more detailed instructions, see [Setup](setup.md).
 Please raise your hand if you need assistance. <!--- We've also set up a [Telegram group chat room](https://telegram.me/shifter_containers) where you can post questions and solutions to issues you encounter. To use this you will need to have Telegram installed already. Clicking on the the Telegram chat link above will guide you through installation. -->
 
 ## Shifter Github Repository
-Shifter is available using a modified BSD license. The Shifter code stack is available in the [NERSC github repository](https://github.com/NERSC/shifter). 
+Shifter is available using a modified BSD license. The Shifter code stack is available in the [NERSC github repository](https://github.com/NERSC/shifter).
 
 ## Feedback
-<!--We'd appreciate you taking a few minutes to fill out [a very short survey](https://www.surveymonkey.com/r/C3NWBKD) about this tutorial at the end of the session. --> 
+<!--We'd appreciate you taking a few minutes to fill out [a very short survey](https://www.surveymonkey.com/r/C3NWBKD) about this tutorial at the end of the session. -->
 Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/shifter-hpc) or contact Shane or Lisa if you have any questions about Shifter in the future.
 
 ## Agenda
@@ -29,21 +29,19 @@ Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/sh
       - [Making changes and committing them](01-hands-on.md#making-changes-and-committing-them)
       - [Creating and building a Dockerfile](01-hands-on.md#creating-and-building-a-dockerfile)
       - [Pushing a Dockerfile to dockerhub](01-hands-on.md#pushing-a-dockerfile-to-dockerhub)
-    - [Intro to Shifter and how it is different](02-shifter.md)
-- 14:30: Installing Shifter
-    - Guided Tour of Shifter Installation
-    - How to roll your own installation for CLE5 and CLE6
+- 14:30: [Intro to Shifter](02-shifter.md)
+    - Overview of Shifter
+    - How is it different from Docker
+    - Quick guide to Shifter Installation
 - 15:00: Break
     - Distribute NERSC logins. **Please obtain a NERSC login from tutorial staff during the break**
-- 15:30: Installing Shifter Con't
-    - Shifter Gateway Tour
-- 16:00: [Second hands-on - Shifter](03-hands-on.md)
+- 15:30: [Second hands-on - Shifter](03-hands-on.md)
     - [Logging in to NERSC](03-hands-on.md#logging-in-to-nersc)
     - [Pulling an image](03-hands-on.md#pulling-an-image)
     - [Running an image interactively](03-hands-on.md#running-an-image-interactively)
     - [Submitting a Shifter batch job](03-hands-on.md#submitting-a-shifter-batch-job)
     - [Running a parallel Python MPI job](03-hands-on.md#running-a-parallel-python-mpi-job)
-- 16:45: [Uses Cases and Optimization](04-use-cases.md)
+- 16:30: [Uses Cases and Optimization](04-use-cases.md)
     - [Science Use Cases](04-use-cases.md#lhc-astronomy)
     - [Controlling layers and making builds faster](05-hands-on.md#controlling-layers-and-making-builds-faster)
     - [What goes in the image and what should stay out](05-hands-on.md#what-goes-in-the-image-and-what-should-stay-out)
