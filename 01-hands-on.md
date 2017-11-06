@@ -63,7 +63,7 @@ Now create a file called Dockerfile in the same directory with contents similar 
 FROM ubuntu:14.04
 MAINTAINER Lisa Gerhardt <lgerhardt@lbl.gov>
 
-ADD ./src/script /bin/script
+ADD ./input_files/script /bin/script
 RUN mv /bin/script /bin/hello && chmod a+rx /bin/hello
 ```
 
@@ -82,15 +82,61 @@ hello
 
 ## Pushing a Dockerfile to dockerhub
 
-Docker provides a public hub that can be use to store and share images.  Before pushing an image, you will need to create an account at Dockerhub.  Go to [https://hub.docker.com/](https://hub.docker.com/) to create the account.  Once the account is created, push your test image using the docker push command.  In this example, we will assume the username is patsmith.
+Docker provides a public hub that can be use to store and share images.  Before pushing an image, you will need to create an account at Dockerhub.  Go to [https://cloud.docker.com/](https://cloud.docker.com/) to create the account.  Once the account is created, push your test image using the docker push command.  In this example, we will assume the username is patsmith.
 
 ```bash
-docker tag hello:1.0 lgerhardt/hello:1.0
-docker push lgerhardt/hello:1.0
+docker tag hello:1.0 patsmith/hello:1.0
+docker push patsmith/hello:1.0
 ```
 
 The first push make take some time depending on your network connection and the size of the image.
 
-## Docker architecture overview
+## Hands on Activity: MPI hello world
 
-![Docker architecture](https://docs.docker.com/engine/article-img/architecture.svg)
+Now that you've practiced loading a simple script, try creating an image that can run this short MPI hello word code:
+
+```code
+// Hello World MPI app
+#include <mpi.h>
+
+int main(int argc, char** argv) {
+    int size, rank;
+    char buffer[1024];
+
+    MPI_Init(&argc, &argv);
+
+    MPI_Comm_size(MPI_COMM_WORLD, &size);
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+
+    gethostname(buffer, 1024);
+
+    printf("hello from %d of %d on %s\n", rank, size, buffer);
+
+    MPI_Barrier(MPI_COMM_WORLD);
+
+    MPI_Finalize();
+    return 0;
+}
+```
+Hints: You can start with the image "nersc/ubuntu-mpi:14.04". It already has MPI installed.
+       Also, you compile with "mpicc helloworld.c -o /app/hello"
+
+<details>
+  <summary>Expand to see the answer</summary>
+  <p>
+
+Dockerfile:
+```bash
+# MPI Dockerfile
+FROM nersc/ubuntu-mpi:14.04
+
+ADD helloworld.c /app/
+
+RUN cd /app && mpicc helloworld.c -o /app/hello
+```
+
+docker build -t <mydockerid>/hellompi:latest .
+docker push <mydockerid>/hellompi:latest
+
+</p></details>
+
