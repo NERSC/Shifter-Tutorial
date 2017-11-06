@@ -136,9 +136,25 @@ ADD helloworld.c /app/
 RUN cd /app && mpicc helloworld.c -o /app/hello
 ```
 
-docker build -t <mydockerid>/hellompi:latest .
+docker build -t mydockerid/hellompi:latest .
 
-docker push <mydockerid>/hellompi:latest
+docker push mydockerid/hellompi:latest
+
+Log into the image and run the app:
+
+docker run -it mydockerid/hellompi:latest
+
+root@982d980864e5:/# mpirun -n 10 /app/hello
+hello from 3 of 10 on 982d980864e5
+hello from 4 of 10 on 982d980864e5
+hello from 7 of 10 on 982d980864e5
+hello from 9 of 10 on 982d980864e5
+hello from 2 of 10 on 982d980864e5
+hello from 5 of 10 on 982d980864e5
+hello from 8 of 10 on 982d980864e5
+hello from 0 of 10 on 982d980864e5
+hello from 6 of 10 on 982d980864e5
+hello from 1 of 10 on 982d980864e5
 
 </p></details>
 
