@@ -119,6 +119,7 @@ int main(int argc, char** argv) {
 }
 ```
 Hints: You can start with the image "nersc/ubuntu-mpi:14.04". It already has MPI installed.
+
        Also, you compile with "mpicc helloworld.c -o /app/hello"
 
 <details>
@@ -136,6 +137,7 @@ RUN cd /app && mpicc helloworld.c -o /app/hello
 ```
 
 docker build -t <mydockerid>/hellompi:latest .
+
 docker push <mydockerid>/hellompi:latest
 
 </p></details>
