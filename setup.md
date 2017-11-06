@@ -9,17 +9,18 @@ Docker has versions for Mac, Windows, and many flavors of Linux at https://www.d
 Run the following commands:
 
 ```bash
+$ docker run hello-world
 $ docker pull ubuntu:14.04
 $ docker pull nersc/ubuntu-mpi:14.04
 ```
 
 ## Docker hub account
 
-Register for an account at https://hub.docker.com/
-(take note of your Docker Hub ID and password).
+Register for an account at https://cloud.docker.com/
+(take note of your Docker ID and password).
 With docker installed, run
 ```bash
-$ docker login -u <your docker hub ID>
+$ docker login -u <your docker ID>
 ```
 and enter your password.
 
