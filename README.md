@@ -42,8 +42,8 @@ Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/sh
     - [Submitting a Shifter batch job](03-hands-on.md#submitting-a-shifter-batch-job)
     - [Running a parallel Python MPI job](03-hands-on.md#running-a-parallel-python-mpi-job)
 - 16:30: [Uses Cases and Optimization](04-use-cases.md)
-    - [Science Use Cases](04-use-cases.md#lhc-astronomy)
     - [Controlling layers and making builds faster](05-hands-on.md#controlling-layers-and-making-builds-faster)
     - [What goes in the image and what should stay out](05-hands-on.md#what-goes-in-the-image-and-what-should-stay-out)
     - [Bring us your problem](05-hands-on.md#bring-us-your-problem)
-- 17:00: Fin
+    - [Science Use Cases](04-use-cases.md#lhc-astronomy)
+- 17:00: Finish
