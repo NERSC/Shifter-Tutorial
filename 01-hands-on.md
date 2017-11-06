@@ -118,9 +118,9 @@ int main(int argc, char** argv) {
     return 0;
 }
 ```
-Hints: You can start with the image "nersc/ubuntu-mpi:14.04". It already has MPI installed.
-
-       Also, you compile with "mpicc helloworld.c -o /app/hello"
+Hints: 
+*You can start with the image "nersc/ubuntu-mpi:14.04". It already has MPI installed.
+*Also, you compile with "mpicc helloworld.c -o /app/hello"
 
 <details>
   <summary>Expand to see the answer</summary>
