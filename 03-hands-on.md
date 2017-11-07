@@ -127,3 +127,16 @@ exit
 ```
 
 If you have your own MPI applications, you can attempt to Docker-ize them using the steps above and run it on Cori.  As a courtesy, limit your job sizes to leave sufficient resources for other participants.  _Don't forget to exit from any "salloc" shells once you are done testing._
+
+## Using Volume mounts
+
+Like Docker, Shifter allows you to mount directories into your container.
+The syntax is similar to Docker but uses "--volume".  Here we will mount a
+scratch directory into the volume as /data.
+
+```bash
+mkdir $SCRATCH/input
+echo 3.141592 > $SCRATCH/input/data.txt
+shifter --volume $SCRATCH/input:/data --image=ubuntu bash
+cat /data/data.txt
+```
