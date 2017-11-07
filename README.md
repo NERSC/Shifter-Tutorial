@@ -6,7 +6,7 @@ The content for the handouts and slides will be posted and updated at [https://g
 
 ## Prerequisites
 
-This is hands-on tutorial. Participants should bring a laptop and pre-install Docker in advance to make the best use of time during the tutorial (see the [Setup](setup.md) section for details). Users can also create a dockerhub account in advance at [https://hub.docker.com/](https://hub.docker.com/). This account will be needed to create images on dockerhub. In addition, users should install an ssh client for their operating system so they can access the HPC resources we will use for the Shifter portion of the tutorials.
+This is hands-on tutorial. Participants should bring a laptop and pre-install Docker in advance to make the best use of time during the tutorial (see the [Setup](setup.md) section for details). Users can also create a docker account in advance at [https://cloud.docker.com/](https://cloud.docker.com/). This account will be needed to create images on docker cloud and dockerhub. In addition, users should install an ssh client for their operating system so they can access the HPC resources we will use for the Shifter portion of the tutorials.
 
 For more detailed instructions, see [Setup](setup.md).
 
@@ -17,7 +17,7 @@ Please raise your hand if you need assistance. <!--- We've also set up a [Telegr
 Shifter is available using a modified BSD license. The Shifter code stack is available in the [NERSC github repository](https://github.com/NERSC/shifter).
 
 ## Feedback
-<!--We'd appreciate you taking a few minutes to fill out [a very short survey](https://www.surveymonkey.com/r/C3NWBKD) about this tutorial at the end of the session. -->
+Please fill out [the SC survey](http://bit.ly/sc17-eval) about this tutorial at the end of the session.
 Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/shifter-hpc) or contact Shane or Lisa if you have any questions about Shifter in the future.
 
 ## Agenda
@@ -42,8 +42,8 @@ Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/sh
     - [Submitting a Shifter batch job](03-hands-on.md#submitting-a-shifter-batch-job)
     - [Running a parallel Python MPI job](03-hands-on.md#running-a-parallel-python-mpi-job)
 - 16:30: [Uses Cases and Optimization](04-use-cases.md)
-    - [Science Use Cases](04-use-cases.md#lhc-astronomy)
     - [Controlling layers and making builds faster](05-hands-on.md#controlling-layers-and-making-builds-faster)
     - [What goes in the image and what should stay out](05-hands-on.md#what-goes-in-the-image-and-what-should-stay-out)
     - [Bring us your problem](05-hands-on.md#bring-us-your-problem)
-- 17:00: Fin
+    - [Science Use Cases](04-use-cases.md#lhc-astronomy)
+- 17:00: Finish
