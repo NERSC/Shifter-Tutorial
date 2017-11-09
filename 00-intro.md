@@ -1,8 +1,8 @@
-# Welcome and intro to Docker
+# Welcome and intro to Containers
 
 ## Setup!
 
-Go to [Setup](setup.md) and start downloading Docker for your platform.
+If you haven't already installed Docker on your laptop, please do it now. Instructions are in [Setup](setup.md).
 
 ## Presentation
 

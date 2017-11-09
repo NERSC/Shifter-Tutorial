@@ -23,7 +23,7 @@ Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/sh
 ## Agenda
 
 - 13:30: [Welcome and Intro to Containers](00-intro.md)
-    - Intro to Docker
+    - [Intro to Containers](presentations/Intro_to_Containers.pdf)
     - [First hands-on](01-hands-on.md)
       - [Pulling and running an existing image](01-hands-on.md#pulling-and-running-an-existing-image)
       - [Making changes and committing them](01-hands-on.md#making-changes-and-committing-them)
