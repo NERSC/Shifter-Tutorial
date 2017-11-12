@@ -1,4 +1,4 @@
-# Uses Cases in the Real World
+# Uses Cases in Scientific Computing
 
 We will present some examples and best practices from real world use cases. 
 
