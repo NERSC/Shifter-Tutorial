@@ -1,4 +1,4 @@
-# Final Hands-on
+# Optimizing your images
 
 ## Controlling layers and making builds faster
 How you construct your Dockerfile can have a big impact on your image sizes.  Keeping images compact, decreases the time to pull an image down or convert images for use by Shifter.  Here are a few tips to reduce image sizes.
