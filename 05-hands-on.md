@@ -36,6 +36,3 @@ While Docker doesn't typically impose strict limits on image sizes, larger image
 * Avoid including data sets in the image unless they are relatively small and static.  Data can be mapped into the image using volume mounts (-v option).
 * Limit images to the specific target applications and only add what is needed to support that application.
 
-## Bring us your problem
-
-If you have completed the exercises and there is time remaining.  We encourage you to try to Docker-ize a real application.  Please, ask the tutorial staff for help.

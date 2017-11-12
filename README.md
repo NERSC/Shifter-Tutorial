@@ -11,7 +11,7 @@ This is hands-on tutorial. Participants should bring a laptop and pre-install Do
 For more detailed instructions, see [Setup](setup.md).
 
 ## Communication
-Please raise your hand if you need assistance. <!--- We've also set up a [Telegram group chat room](https://telegram.me/shifter_containers) where you can post questions and solutions to issues you encounter. To use this you will need to have Telegram installed already. Clicking on the the Telegram chat link above will guide you through installation. -->
+Please raise your hand if you need assistance. You can also ask questions on this [Google Doc](https://docs.google.com/document/d/18N_yE7D7hAvrbpuhfhnjc1M-Eok6nE9d4IxrHeuqMgo/edit?usp=sharing).
 
 ## Shifter Github Repository
 Shifter is available using a modified BSD license. The Shifter code stack is available in the [NERSC github repository](https://github.com/NERSC/shifter).
@@ -41,9 +41,8 @@ Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/sh
     - [Running an image interactively](03-hands-on.md#running-an-image-interactively)
     - [Submitting a Shifter batch job](03-hands-on.md#submitting-a-shifter-batch-job)
     - [Running a parallel Python MPI job](03-hands-on.md#running-a-parallel-python-mpi-job)
-- 16:30: [Uses Cases and Optimization](04-use-cases.md)
+- 16:30: Uses Cases and Optimization
     - [Controlling layers and making builds faster](05-hands-on.md#controlling-layers-and-making-builds-faster)
     - [What goes in the image and what should stay out](05-hands-on.md#what-goes-in-the-image-and-what-should-stay-out)
-    - [Bring us your problem](05-hands-on.md#bring-us-your-problem)
-    - [Science Use Cases](04-use-cases.md#lhc-astronomy)
-- 17:00: Finish
+    - [Science Use Cases](04-use-cases.md)
+- 17:00: [Wrap-Up](06-wrap-up.md)
