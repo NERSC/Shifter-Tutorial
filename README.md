@@ -43,7 +43,5 @@ Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/sh
     - [Running a parallel Python MPI job](03-hands-on.md#running-a-parallel-python-mpi-job)
 - 16:30: Advanced Shifter, Optimizations, and Uses Cases
     - [Advanced Shifter and Optimizations](https://github.com/NERSC/Shifter-Tutorial/raw/master/presentations/Shifter-Advanced-Optimizations.pdf)
-    - [Controlling layers and making builds faster](04-optimizing.md#controlling-layers-and-making-builds-faster)
-    - [What goes in the image and what should stay out](04-optimizing.md#what-goes-in-the-image-and-what-should-stay-out)
-    - [Science Use Cases](05-use-cases.md)
+    - [Science Use Cases](https://github.com/NERSC/Shifter-Tutorial/raw/master/presentations/SC_use_slides.pdf)
 - 17:00: [Wrap-Up](06-wrap-up.md)
