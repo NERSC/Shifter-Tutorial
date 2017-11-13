@@ -19,7 +19,8 @@ And test the services
 
 To run a shifter container, you need to become the testuser (auser).
 
-    [root@xxxxx /]$  su - auser
+    [root@xxxxx /]$ su - auser
+    [auser@xxxx /]$ shifterimg pull busybox
     [auser@xxxx /]$ shifter --image=busybox sh
 
 # Docker4Mac Users

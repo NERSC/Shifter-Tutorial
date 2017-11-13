@@ -11,6 +11,8 @@
     "Broker":"redis://localhost/",
     "CacheDirectory": "/data/images/cache/",
     "ExpandDirectory": "/data/images/expand/",
+    "admins":["root"],
+    "ImportUsers":["root"],
     "Locations": {
         "registry-1.docker.io": {
             "remotetype": "dockerv2",

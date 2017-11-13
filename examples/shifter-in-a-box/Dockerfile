@@ -5,13 +5,11 @@ RUN \
     yum -y install mongodb-server mongodb wget
 
 RUN \
-    mkdir rpms && cd rpms && \
-    wget http://portal.nersc.gov/project/bigdata/shifter/shifter-17.11.b1-1.nersc.el7.centos.x86_64.rpm && \
-    wget http://portal.nersc.gov/project/bigdata/shifter/shifter-imagegw-17.11.b1-1.nersc.el7.centos.x86_64.rpm && \
-    wget http://portal.nersc.gov/project/bigdata/shifter/shifter-debuginfo-17.11.b1-1.nersc.el7.centos.x86_64.rpm && \
-    wget http://portal.nersc.gov/project/bigdata/shifter/shifter-runtime-17.11.b1-1.nersc.el7.centos.x86_64.rpm && \
-    yum -y localinstall shifter-* && \
-    cd .. && rm -rf rpms
+    URL=http://portal.nersc.gov/project/bigdata/shifter/ && \
+    yum -y install $URL/shifter-17.11.b2-1.nersc.el7.centos.x86_64.rpm \
+    $URL/shifter-imagegw-17.11.b2-1.nersc.el7.centos.x86_64.rpm \
+    $URL/shifter-fasthash-17.11.b2-1.nersc.el7.centos.x86_64.rpm \
+    $URL/shifter-runtime-17.11.b2-1.nersc.el7.centos.x86_64.rpm
 
 
 RUN \
