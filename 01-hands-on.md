@@ -98,6 +98,7 @@ Now that you've practiced loading a simple script, try creating an image that ca
 ```code
 // Hello World MPI app
 #include <mpi.h>
+#include <stdio.h>
 
 int main(int argc, char** argv) {
     int size, rank;
