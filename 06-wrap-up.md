@@ -1,5 +1,5 @@
 ## Further activities at SC and Beyond
-- Shifter BOF Tuesday 17:15 Room 201-203
+- Container BOF Tuesday 17:15 Room 201-203
 - Shifter Round Table Wednesday 15:00  DOE Booth (#613)
 - Join the [Shifter Google group](https://groups.google.com/forum/#!forum/shifter-hpc)
 
