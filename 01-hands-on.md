@@ -54,14 +54,14 @@ Create a simple shell script called script in your local directory using your fa
 
 ```
 #!/bin/bash
-echo "Lisa says Hello World!"
+echo "Hello World! -- Me"
 ```
 
 Now create a file called Dockerfile in the same directory with contents similar to this.  Use your own name and e-mail for the maintainer.
 
 ```
 FROM ubuntu:14.04
-MAINTAINER Lisa Gerhardt <lgerhardt@lbl.gov>
+MAINTAINER Pat Smith <psmith@my.edu>
 
 ADD ./input_files/script /bin/script
 RUN mv /bin/script /bin/hello && chmod a+rx /bin/hello

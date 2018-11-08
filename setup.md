@@ -32,11 +32,7 @@ you already have the `ssh` client installed.
 On Windows, install [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 
-## If the Docker installation fails
+## If you have problems installing Docker
 
-You can use http://play-with-docker.com/ to try Docker,
-but it won't work if all of us try it once!
-So use it only as a last resort,
-and it is up to you to not use any important information
-(like the Docker hub account) inside it.
-
+You can use http://play-with-docker.com/ to try Docker.
+We suggest using pay-with-docker only as a last resort.

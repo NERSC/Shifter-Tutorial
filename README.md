@@ -17,8 +17,8 @@ Please raise your hand if you need assistance. You can also ask questions on thi
 Shifter is available using a modified BSD license. The Shifter code stack is available in the [NERSC github repository](https://github.com/NERSC/shifter).
 
 ## Feedback
-Please fill out [the SC survey](http://bit.ly/sc17-eval) about this tutorial at the end of the session.
-Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/shifter-hpc) or contact Shane or Lisa if you have any questions about Shifter in the future.
+Please fill out the SC survey about this tutorial at the end of the session.
+Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/shifter-hpc) or contact Shane or Rollin if you have any questions about Shifter in the future.
 
 ## Agenda
 

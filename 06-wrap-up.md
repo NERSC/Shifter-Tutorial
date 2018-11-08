@@ -1,6 +1,7 @@
 ## Further activities at SC and Beyond
-- Shifter BOF Tuesday 17:15 Room 201-203
-- Shifter Round Table Wednesday 15:00  DOE Booth (#613)
+- Container BOF - HPC Containers Tuesday 17:15 Room C140/142
+- Container BOF2 - Meeting HPC Container Challenges as a Community Tuesday 12:15 Room C141/143/14
+- Look for us in the DOE Booth.
 - Join the [Shifter Google group](https://groups.google.com/forum/#!forum/shifter-hpc)
 
 
@@ -9,5 +10,5 @@
 - Want to know more about installing Shifter at scale?
 - Come talk with us now, or email us at: 
   - Shane Canon:  scanon@lbl.gov
-  - Lisa Gerhardt: lgerhardt@lbl.gov
+  - Rollin Thomas:
 

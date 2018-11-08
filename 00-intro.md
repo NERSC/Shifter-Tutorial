@@ -2,5 +2,4 @@
 
 ## Setup!
 
-If you haven't already installed Docker on your laptop, please do it now. Instructions are in [Setup](setup.md).
-
+If you haven't already installed Docker on your laptop and created a DockerHub account, please do it now. Instructions are in [Setup](setup.md).
