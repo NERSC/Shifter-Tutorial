@@ -73,6 +73,7 @@ First, create and save a Hello World MPI application.
 ```code
 // Hello World MPI app
 #include <mpi.h>
+#include <stdio.h>
 
 int main(int argc, char** argv) {
     int size, rank;
