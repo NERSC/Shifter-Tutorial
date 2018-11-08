@@ -35,7 +35,8 @@ Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/sh
     - Quick guide to Shifter Installation
 - 15:00: Break
     - Distribute NERSC logins. **Please obtain a NERSC login from tutorial staff during the break**
-- 15:30: [Second hands-on - Shifter](03-hands-on.md)
+- 15:30: Questions from previous sections
+- 15:40: [Second hands-on - Shifter](03-hands-on.md)
     - [Logging in to NERSC](03-hands-on.md#logging-in-to-nersc)
     - [Pulling an image](03-hands-on.md#pulling-an-image)
     - [Running an image interactively](03-hands-on.md#running-an-image-interactively)
