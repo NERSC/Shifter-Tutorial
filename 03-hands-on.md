@@ -31,7 +31,6 @@ shifter bash
 You should be able to browse inside the image and confirm that it matches what you pushed to dockerhub earlier.
 
 ```bash
-ls -l /app
 lsb_release -a
 ```
 
