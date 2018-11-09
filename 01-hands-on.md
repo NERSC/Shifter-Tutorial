@@ -35,11 +35,11 @@ Create a simple shell script called `script` in your local directory using your 
 echo "Hello World! -- Me"
 ```
 
-Now create a file called Dockerfile in the same directory with contents similar to this.  Use your own name and e-mail for the maintainer.
+Now create a file called `Dockerfile` in the same directory like the following.  Use your own name and e-mail for the maintainer label.
 
 ```
 FROM ubuntu:14.04
-MAINTAINER Pat Smith <psmith@my.edu>
+LABEL maintainer="DarthVader@empire.com"
 
 ADD ./script /bin/script
 RUN mv /bin/script /bin/hello && chmod a+rx /bin/hello
