@@ -39,7 +39,7 @@ Now create a file called `Dockerfile` in the same directory like the following. 
 
 ```
 FROM ubuntu:14.04
-LABEL maintainer="DarthVader@empire.com"
+LABEL maintainer="patsmith"
 
 ADD ./script /bin/script
 RUN mv /bin/script /bin/hello && chmod a+rx /bin/hello
@@ -60,10 +60,11 @@ hello
 
 ## Pushing a Dockerfile to dockerhub
 
-Docker provides a public hub that can be use to store and share images.  Before pushing an image, you will need to create an account at Dockerhub.  Go to [https://cloud.docker.com/](https://cloud.docker.com/) to create the account.  Once the account is created, push your test image using the docker push command.  In this example, we will assume the username is patsmith.
+Docker provides a public hub that can be use to store and share images.  Before pushing an image, you will need to create an account at Dockerhub.  Go to [https://cloud.docker.com/](https://cloud.docker.com/) to create the account.  Once the account is created, push your test image using the docker push command.  In this example, we will assume the username is patsmith.  If you haven't done a `docker login` you may need to do that first.
 
 ```bash
 docker tag hello:1.0 patsmith/hello:1.0
+docker login
 docker push patsmith/hello:1.0
 ```
 
