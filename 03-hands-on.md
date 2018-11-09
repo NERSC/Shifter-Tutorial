@@ -23,7 +23,8 @@ shifterimg pull scanon/shanetest:latest
 Use salloc and shifter to test the image.
 
 ```bash
-salloc -N 1 -C haswell -p regular --reservation=sc18_shifter --image ubuntu:14.04 -A ntrain
+salloc -N 1 -C haswell -q regular --reservation=sc18_shifter --image ubuntu:14.04 -A ntrain
+... wait for prompt ...
 shifter bash
 ```
 
@@ -49,7 +50,7 @@ cat << EOF > submit.sl
 #!/bin/bash
 #SBATCH -N 1 -C haswell
 #SBATCH --reservation=sc18_shifter
-#SBATCH -p regular
+#SBATCH -q regular
 #SBATCH -A ntrain
 #SBATCH --image ubuntu:latest
 
@@ -119,7 +120,7 @@ Next, return to your Cori login, pull your image down and run it.
 ```bash
 shifterimg pull <mydockerid>/hellompi:latest
 #Wait for it to complete
-salloc -N 2 -C haswell -p regular -A ntrain --reservation=sc18_shifter --image <mydockerid>/hellompi:latest
+salloc -N 2 -C haswell -q regular -A ntrain --reservation=sc18_shifter --image <mydockerid>/hellompi:latest
 # Wait for prepare_compilation_report
 # Cori has 32 physical cores per node with 2 hyper-threads per core.  
 # So you can run up to 64 tasks per node.
