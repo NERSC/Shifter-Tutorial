@@ -16,34 +16,6 @@ $ whoami
 $ lsb_release -a
 ```
 
-## Making changes and committing them
-
-Using standard linux commands, modify the image.  
-
-```bash
-$ docker run -it ubuntu:14.04
-root@949eb1a6a099:/# (echo '#!/bin/bash'|echo "echo 'Hello World'") > /bin/hello
-$ chmod 755 /bin/hello
-# Test it
-$ hello
-# Exit
-$ exit
-```
-
-Now find the container and commit the changes to a new image called hello.
-```bash
-docker ps -a|head -2
-# Grab the Container ID
-docker commit <ID> hello
-```
-
-Now try running the new image with your changes.
-
-```bash
-docker run -it hello
-hello
-```
-
 ## Creating and building a Dockerfile
 
 While manually modifying and commiting changes is one way to build images, using a Dockerfile provides a way to build images so that others can understand how the image was constructed and make modifications.
