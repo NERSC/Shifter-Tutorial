@@ -62,59 +62,18 @@ Use the Slurm sbatch command to submit the script.
 sbatch ./submit.sl
 ```
 
-## Running a parallel Python MPI job
+## Running a parallel MPI job
 
 It is possible to run MPI jobs in Shifter and obtain native performance.  There are several ways to achieve this. We will demonstrate one approach here.
 
-On your laptop create and push a docker image with MPICH and a sample application installed.
-
-
-First, create and save a Hello World MPI application.
-```code
-// Hello World MPI app
-#include <mpi.h>
-#include <stdio.h>
-
-int main(int argc, char** argv) {
-    int size, rank;
-    char buffer[1024];
-
-    MPI_Init(&argc, &argv);
-
-    MPI_Comm_size(MPI_COMM_WORLD, &size);
-    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
-
-    gethostname(buffer, 1024);
-
-    printf("hello from %d of %d on %s\n", rank, size, buffer);
-
-    MPI_Barrier(MPI_COMM_WORLD);
-
-    MPI_Finalize();
-    return 0;
-}
-```
-
-Next create, a Dockerfile that install MPICH and the application.
+If you did not do so earlier, tag and push the MPI image you created earlier.
 
 ```bash
-# MPI Dockerfile
-FROM nersc/ubuntu-mpi:14.04
-
-ADD helloworld.c /app/
-
-RUN cd /app && mpicc helloworld.c -o /app/hello
-
-ENV PATH=/usr/bin:/bin:/app:/usr/local/bin
+docker tag hellompi mydockerid/hellompi
+docker push mydockerid/hellompi
 ```
 
-Build and push the image.
-```bash
-docker build -t <mydockerid>/hellompi:latest .
-docker push <mydockerid>/hellompi:latest
-```
-
-Next, return to your Cori login, pull your image down and run it.
+Now, return to your Cori login, pull your image down and run it.
 
 ```bash
 shifterimg pull <mydockerid>/hellompi:latest
