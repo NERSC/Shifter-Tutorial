@@ -28,7 +28,7 @@ Start by making an empty directory.
 mkdir mydockerimage
 ```
 
-Create a simple shell script called script in your local directory using your favorite editor.
+Create a simple shell script called `script` in your local directory using your favorite editor.
 
 ```
 #!/bin/bash
@@ -41,7 +41,7 @@ Now create a file called Dockerfile in the same directory with contents similar 
 FROM ubuntu:14.04
 MAINTAINER Pat Smith <psmith@my.edu>
 
-ADD ./input_files/script /bin/script
+ADD ./script /bin/script
 RUN mv /bin/script /bin/hello && chmod a+rx /bin/hello
 ```
 
