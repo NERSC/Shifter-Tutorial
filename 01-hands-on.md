@@ -22,6 +22,12 @@ While manually modifying and commiting changes is one way to build images, using
 
 A Dockerfile has many options.  We will focus on a few basic ones (FROM, MAINTAINER, ADD, and RUN)
 
+Start by making an empty directory.
+
+```
+mkdir mydockerimage
+```
+
 Create a simple shell script called script in your local directory using your favorite editor.
 
 ```
