@@ -26,6 +26,7 @@ Start by making an empty directory.
 
 ```
 mkdir mydockerimage
+cd mydockerimage
 ```
 
 Create a simple shell script called `script` in your local directory using your favorite editor.
