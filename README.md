@@ -1,4 +1,4 @@
-# Container Computing for HPC and Scientific Workflows - SC17 Tutorial
+# Container Computing for HPC and Scientific Workflows - SC18 Tutorial
 
 Container computing is revolutionizing the way applications are developed and delivered. It offers opportunities that never existed before for significantly improving efficiency of scientific workflows and easily moving these workflows from the laptop to the supercomputer. Tools like Docker and Shifter enable a new paradigm for scientific and technical computing. However, to fully unlock its potential, users and administrators need to understand how to utilize these new approaches. This tutorial will introduce attendees to the basics of creating container images, explain best practices, and cover more advanced topics such as creating images to be run on HPC platforms using Shifter. The tutorial will also explain how research scientists can utilize container-based computing to accelerate their research and how these tools can boost the impact of their research by enabling better reproducibility and sharing of their scientific process without compromising security.  
 
@@ -10,8 +10,11 @@ This is hands-on tutorial. Participants should bring a laptop and pre-install Do
 
 For more detailed instructions, see [Setup](setup.md).
 
+## Updated Slides
+You can find updated versions of slides [here](https://drive.google.com/drive/folders/1LWuV6W5Gx6mdAuZAKCZvad5exf9we10f?usp=sharing).
+
 ## Communication
-Please raise your hand if you need assistance. You can also ask questions on this [Google Doc](https://docs.google.com/document/d/18N_yE7D7hAvrbpuhfhnjc1M-Eok6nE9d4IxrHeuqMgo/edit?usp=sharing).
+Please raise your hand if you need assistance. You can also ask questions on this [Google Doc](https://docs.google.com/document/d/1Oa4El8NrcAcCOvl0pQHuXibvvmvw_HRaRZeDUrdwM_I/edit?usp=sharing).
 
 ## Shifter Github Repository
 Shifter is available using a modified BSD license. The Shifter code stack is available in the [NERSC github repository](https://github.com/NERSC/shifter).
