@@ -26,8 +26,7 @@ Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/sh
 ## Agenda
 
 - 13:30: [Welcome and Intro to Containers](00-intro.md)
-    - [Intro to Containers](https://github.com/NERSC/Shifter-Tutorial/raw/master/presentations/Intro_to_Containers.pdf)
-    - [First hands-on](01-hands-on.md)
+    - [Intro to Containers](https://drive.google.com/drive/folders/1LWuV6W5Gx6mdAuZAKCZvad5exf9we10f?usp=sharing)
       - [Pulling and running an existing image](01-hands-on.md#pulling-and-running-an-existing-image)
       - [Making changes and committing them](01-hands-on.md#making-changes-and-committing-them)
       - [Creating and building a Dockerfile](01-hands-on.md#creating-and-building-a-dockerfile)
@@ -46,6 +45,5 @@ Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/sh
     - [Submitting a Shifter batch job](03-hands-on.md#submitting-a-shifter-batch-job)
     - [Running a parallel Python MPI job](03-hands-on.md#running-a-parallel-python-mpi-job)
 - 16:30: Advanced Shifter, Optimizations, and Uses Cases
-    - [Advanced Shifter and Optimizations](https://github.com/NERSC/Shifter-Tutorial/raw/master/presentations/Shifter-Advanced-Optimizations.pdf)
-    - [Science Use Cases](https://github.com/NERSC/Shifter-Tutorial/raw/master/presentations/SC_use_slides.pdf)
-- 17:00: [Wrap-Up](06-wrap-up.md)
+    - [Advanced Shifter and Optimizations](https://drive.google.com/drive/folders/1LWuV6W5Gx6mdAuZAKCZvad5exf9we10f?usp=sharing)
+    - [Science Use Cases](https://drive.google.com/drive/folders/1LWuV6W5Gx6mdAuZAKCZvad5exf9we10f?usp=sharing)
