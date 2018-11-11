@@ -53,7 +53,7 @@ cat << EOF > submit.sl
 #SBATCH -A ntrain
 #SBATCH --image=scanon/mpi:test
 
-srun -N 1 shifter /app/hello
+srun -n 64 shifter /app/hello
 EOF
 ```
 Use the Slurm sbatch command to submit the script.
