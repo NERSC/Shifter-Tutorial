@@ -51,9 +51,9 @@ cat << EOF > submit.sl
 #SBATCH --reservation=sc18_shifter
 #SBATCH -q regular
 #SBATCH -A ntrain
-#SBATCH --image ubuntu:latest
+#SBATCH --image=scanon/mpi:test
 
-srun -N 1 shifter /app/app.py
+srun -N 1 shifter /app/hello
 EOF
 ```
 Use the Slurm sbatch command to submit the script.
