@@ -19,14 +19,15 @@ $ exit
 
 ## Creating and building a Dockerfile
 
-While manually modifying and commiting changes is one way to build images, using a Dockerfile provides a way to build images so that others can understand how the image was constructed and make modifications.
+While there are other ways to build images, using a Dockerfile provides a way to build images so that others can understand how the image was constructed and make modifications.
 
 A Dockerfile has many options.  We will focus on a few basic ones (FROM, LABEL, ADD, and RUN)
 
-Start by making an empty directory.
+Start by making an empty directory and changing into it.
 
 ```
 mkdir mydockerimage
+cd dockerimages
 ```
 
 Create a simple shell script called `script` in your local directory using your favorite editor.
