@@ -20,7 +20,7 @@ $ lsb_release -a
 
 While manually modifying and commiting changes is one way to build images, using a Dockerfile provides a way to build images so that others can understand how the image was constructed and make modifications.
 
-A Dockerfile has many options.  We will focus on a few basic ones (FROM, MAINTAINER, ADD, and RUN)
+A Dockerfile has many options.  We will focus on a few basic ones (FROM, LABEL, ADD, and RUN)
 
 Start by making an empty directory.
 
@@ -39,7 +39,7 @@ Now create a file called `Dockerfile` in the same directory like the following. 
 
 ```
 FROM ubuntu:14.04
-LABEL maintainer="patsmith"
+LABEL maintainer="patsmith patsmith@patsmith.org"
 
 ADD ./script /bin/script
 RUN mv /bin/script /bin/hello && chmod a+rx /bin/hello

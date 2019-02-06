@@ -11,6 +11,8 @@
 
 FROM nersc/ubuntu-mpi:14.04
 
+LABEL maintainer="Change Me change@me.com"
+
 ADD helloworld.c /app/
 
 RUN cd /app && mpicc helloworld.c -o /app/hello
