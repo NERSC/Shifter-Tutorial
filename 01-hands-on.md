@@ -11,9 +11,10 @@ $ docker pull ubuntu:14.04
 Now run the image using the docker run command.  Use the "-it" option to get an interactive terminal during the run.
 
 ```bash
-$ docker run -it ubuntu:14.04
+$ docker run -it --rm ubuntu:14.04
 $ whoami
 $ lsb_release -a
+$ exit
 ```
 
 ## Creating and building a Dockerfile
