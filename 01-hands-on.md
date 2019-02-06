@@ -56,8 +56,12 @@ docker build -t hello:1.0 .
 Try running the image.
 
 ```bash
-docker run -it hello:1.0
+docker run -it --rm hello:1.0
 hello
+
+# or
+
+docker run -it --rm hello:1.0 hello
 ```
 
 ## Pushing a Dockerfile to dockerhub
